@@ -9,7 +9,7 @@
     - geerlingguy.passenger
 
   tasks:
-    - name: Ensure demo application is at correct release.
+    - name: Ensure demo application is at correct release. #jfnvjkdfnv
       git:
         repo: https://github.com/geerlingguy/demo-rails-app.git
         version: "{{ app_version }}"
